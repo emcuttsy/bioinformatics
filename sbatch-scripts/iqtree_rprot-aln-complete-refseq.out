@@ -1,0 +1,818 @@
+IQ-TREE multicore version 1.6.3 for Linux 64-bit built Mar 22 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node400 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -s concatenated_alignment.aln -q partitions.txt -st AA -nt AUTO
+Seed:    4476 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jan  6 18:41:10 2021
+Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
+
+Reading partition model file partitions.txt ...
+Reading alignment file concatenated_alignment.aln ... Fasta format detected
+NOTE: Change sequence name '643867 Marivirga tractuosa DSM 4126 643867 Marivirga tractuosa DSM 4126' -> 643867_Marivirga
+NOTE: Change sequence name '880071 Bernardetia litoralis DSM 6794 880071 Bernardetia litoralis DSM 6794' -> 880071_Bernardetia
+NOTE: Change sequence name '512763 Rufibacter tibetensis 512763 Rufibacter tibetensis' -> 512763_Rufibacter
+NOTE: Change sequence name '1884793 Pseudoflavitalea rhizosphaerae 1884793 Pseudoflavitalea rhizosphaerae' -> 1884793_Pseudoflavitalea
+NOTE: Change sequence name '1124780 Nafulsella turpanensis ZLM-10 1124780 Nafulsella turpanensis ZLM-10' -> 1124780_Nafulsella
+NOTE: Change sequence name '1784714 Arcticibacterium luteifluviistationis 1784714 Arcticibacterium luteifluviistationis' -> 1784714_Arcticibacterium
+NOTE: Change sequence name '523696 Saonia flava 523696 Saonia flava' -> 523696_Saonia
+NOTE: Change sequence name '319236 Nonlabens sediminis 319236 Nonlabens sediminis' -> 319236_Nonlabens
+NOTE: Change sequence name '762903 Pseudopedobacter saltans DSM 12145 762903 Pseudopedobacter saltans DSM 12145' -> 762903_Pseudopedobacter
+NOTE: Change sequence name '616991 Arenibacter algicola 616991 Arenibacter algicola' -> 616991_Arenibacter
+NOTE: Change sequence name '755732 Fluviicola taffensis DSM 16823 755732 Fluviicola taffensis DSM 16823' -> 755732_Fluviicola
+NOTE: Change sequence name '761193 Runella slithyformis DSM 19594 761193 Runella slithyformis DSM 19594' -> 761193_Runella
+NOTE: Change sequence name '1717717 Labilibaculum antarcticum 1717717 Labilibaculum antarcticum' -> 1717717_Labilibaculum
+NOTE: Change sequence name 'MAG 14 MAG 14' -> MAG_14
+NOTE: Change sequence name '1227077 Siccationidurans arizonensis 1227077 Siccationidurans arizonensis' -> 1227077_Siccationidurans
+NOTE: Change sequence name '496056 Anseongella ginsenosidimutans 496056 Anseongella ginsenosidimutans' -> 496056_Anseongella
+NOTE: Change sequence name '1123057 Rhodonellum psychrophilum GCM71 = DSM 17998 1123057 Rhodonellum psychrophilum GCM71 = DSM 17998' -> 1123057_Rhodonellum
+NOTE: Change sequence name '1302690 Cnuella takakiae 1302690 Cnuella takakiae' -> 1302690_Cnuella
+NOTE: Change sequence name 'MAG 55 MAG 55' -> MAG_55
+NOTE: Change sequence name '1842495 Pelobium manganitolerans 1842495 Pelobium manganitolerans' -> 1842495_Pelobium
+NOTE: Change sequence name '1912246 Seonamhaeicola marinus 1912246 Seonamhaeicola marinus' -> 1912246_Seonamhaeicola
+NOTE: Change sequence name 'MAG 3 MAG 3' -> MAG_3
+NOTE: Change sequence name '2027860 Mucilaginibacter rubeus 2027860 Mucilaginibacter rubeus' -> 2027860_Mucilaginibacter
+NOTE: Change sequence name '510947 Lacibacter cauensis 510947 Lacibacter cauensis' -> 510947_Lacibacter
+NOTE: Change sequence name '2175091 Flavobacterium album 2175091 Flavobacterium album' -> 2175091_Flavobacterium
+NOTE: Change sequence name '2516559 Aquirufa antheringensis 2516559 Aquirufa antheringensis' -> 2516559_Aquirufa
+NOTE: Change sequence name '655355 Sunxiuqinia elliptica 655355 Sunxiuqinia elliptica' -> 655355_Sunxiuqinia
+NOTE: Change sequence name '213248 Mesonia algae 213248 Mesonia algae' -> 213248_Mesonia
+NOTE: Change sequence name '536441 Chryseobacterium taklimakanense 536441 Chryseobacterium taklimakanense' -> 536441_Chryseobacterium
+NOTE: Change sequence name '2321403 Chryseolinea soli 2321403 Chryseolinea soli' -> 2321403_Chryseolinea
+NOTE: Change sequence name '477690 Lishizhenia tianjinensis 477690 Lishizhenia tianjinensis' -> 477690_Lishizhenia
+NOTE: Change sequence name '1926625 Vicingus serpentipes 1926625 Vicingus serpentipes' -> 1926625_Vicingus
+NOTE: Change sequence name '2305895 Fibrisoma montanum 2305895 Fibrisoma montanum' -> 2305895_Fibrisoma
+NOTE: Change sequence name '823 Parabacteroides distasonis 823 Parabacteroides distasonis' -> 823_Parabacteroides
+NOTE: Change sequence name '504488 Muriicola jejuensis 504488 Muriicola jejuensis' -> 504488_Muriicola
+NOTE: Change sequence name '984262 Saprospira grandis str. Lewin 984262 Saprospira grandis str. Lewin' -> 984262_Saprospira
+NOTE: Change sequence name '1770527 Larkinella soli 1770527 Larkinella soli' -> 1770527_Larkinella
+NOTE: Change sequence name '357276 Phocaeicola dorei 357276 Phocaeicola dorei' -> 357276_Phocaeicola
+NOTE: Change sequence name '1122177 Flavilitoribacter nigricans DSM 23189 = NBRC 102662 1122177 Flavilitoribacter nigricans DSM 23189 = NBRC 102662' -> 1122177_Flavilitoribacter
+NOTE: Change sequence name '1380600 Flaviramulus ichthyoenteri Th78 1380600 Flaviramulus ichthyoenteri Th78' -> 1380600_Flaviramulus
+NOTE: Change sequence name '400092 Pontibacter korlensis 400092 Pontibacter korlensis' -> 400092_Pontibacter
+NOTE: Change sequence name '1639118 Mangrovibacterium marinum 1639118 Mangrovibacterium marinum' -> 1639118_Mangrovibacterium
+NOTE: Change sequence name '2093856 Butyricimonas faecalis 2093856 Butyricimonas faecalis' -> 2093856_Butyricimonas
+NOTE: Change sequence name '2528631 Puteibacter caeruleilacunae 2528631 Puteibacter caeruleilacunae' -> 2528631_Puteibacter
+NOTE: Change sequence name '2502781 Hymenobacter jejuensis 2502781 Hymenobacter jejuensis' -> 2502781_Hymenobacter
+NOTE: Change sequence name '762982 Paraprevotella xylaniphila YIT 11841 762982 Paraprevotella xylaniphila YIT 11841' -> 762982_Paraprevotella
+NOTE: Change sequence name '1218801 Kordia antarctica 1218801 Kordia antarctica' -> 1218801_Kordia
+NOTE: Change sequence name '797291 Sphingobacterium lactis 797291 Sphingobacterium lactis' -> 797291_Sphingobacterium
+NOTE: Change sequence name '2479858 Amniculibacterium aquaticum 2479858 Amniculibacterium aquaticum' -> 2479858_Amniculibacterium
+NOTE: Change sequence name 'MAG 4 MAG 4' -> MAG_4
+NOTE: Change sequence name '192904 Kriegella aquimaris 192904 Kriegella aquimaris' -> 192904_Kriegella
+NOTE: Change sequence name '1286632 Zhouia amylolytica AD3 1286632 Zhouia amylolytica AD3' -> 1286632_Zhouia
+NOTE: Change sequence name '653929 Albibacterium bauzanense 653929 Albibacterium bauzanense' -> 653929_Albibacterium
+NOTE: Change sequence name '1640674 Williamwhitmania taraxaci 1640674 Williamwhitmania taraxaci' -> 1640674_Williamwhitmania
+NOTE: Change sequence name '393921 Porphyromonas crevioricanis 393921 Porphyromonas crevioricanis' -> 393921_Porphyromonas
+NOTE: Change sequence name 'MAG 46 MAG 46' -> MAG_46
+NOTE: Change sequence name '393006 Tamlana crocina 393006 Tamlana crocina' -> 393006_Tamlana
+NOTE: Change sequence name '1048983 Anditalea andensis 1048983 Anditalea andensis' -> 1048983_Anditalea
+NOTE: Change sequence name '313595 Psychroflexus torquis ATCC 700755 313595 Psychroflexus torquis ATCC 700755' -> 313595_Psychroflexus
+NOTE: Change sequence name '2268757 Paracnuella aquatica 2268757 Paracnuella aquatica' -> 2268757_Paracnuella
+NOTE: Change sequence name '1750698 Arsenicibacter rosenii 1750698 Arsenicibacter rosenii' -> 1750698_Arsenicibacter
+NOTE: Change sequence name '926549 Adhaeribacter aquaticus DSM 16391 926549 Adhaeribacter aquaticus DSM 16391' -> 926549_Adhaeribacter
+NOTE: Change sequence name '694427 Paludibacter propionicigenes WB4 694427 Paludibacter propionicigenes WB4' -> 694427_Paludibacter
+NOTE: Change sequence name '702745 Myroides phaeus 702745 Myroides phaeus' -> 702745_Myroides
+NOTE: Change sequence name '1434752 Arcticibacter eurypsychrophilus 1434752 Arcticibacter eurypsychrophilus' -> 1434752_Arcticibacter
+NOTE: Change sequence name 'MAG 45 MAG 45' -> MAG_45
+NOTE: Change sequence name '2575867 Ilyomonas limi 2575867 Ilyomonas limi' -> 2575867_Ilyomonas
+NOTE: Change sequence name '1481457 Spongiivirga citrea 1481457 Spongiivirga citrea' -> 1481457_Spongiivirga
+NOTE: Change sequence name '266749 Chryseobacterium jeonii 266749 Chryseobacterium jeonii' -> 266749_Chryseobacterium
+NOTE: Change sequence name '2171629 Botryobacter ruber 2171629 Botryobacter ruber' -> 2171629_Botryobacter
+NOTE: Change sequence name '28112 Tannerella forsythia 28112 Tannerella forsythia' -> 28112_Tannerella
+NOTE: Change sequence name '926562 Owenweeksia hongkongensis DSM 17368 926562 Owenweeksia hongkongensis DSM 17368' -> 926562_Owenweeksia
+NOTE: Change sequence name '758820 Aquiflexum balticum DSM 16537 758820 Aquiflexum balticum DSM 16537' -> 758820_Aquiflexum
+NOTE: Change sequence name '247 Empedobacter brevis 247 Empedobacter brevis' -> 247_Empedobacter
+NOTE: Change sequence name '760192 Haliscomenobacter hydrossis DSM 1100 760192 Haliscomenobacter hydrossis DSM 1100' -> 760192_Haliscomenobacter
+NOTE: Change sequence name '1042376 Ochrovirga pacifica 1042376 Ochrovirga pacifica' -> 1042376_Ochrovirga
+NOTE: Change sequence name '390640 Salinimicrobium catena 390640 Salinimicrobium catena' -> 390640_Salinimicrobium
+NOTE: Change sequence name '682526 Natronoflexus pectinivorans 682526 Natronoflexus pectinivorans' -> 682526_Natronoflexus
+NOTE: Change sequence name '1763537 Cochleicola gelatinilyticus 1763537 Cochleicola gelatinilyticus' -> 1763537_Cochleicola
+NOTE: Change sequence name '1727163 Algoriphagus sanaruensis 1727163 Algoriphagus sanaruensis' -> 1727163_Algoriphagus
+NOTE: Change sequence name '1150368 Sinomicrobium oceani 1150368 Sinomicrobium oceani' -> 1150368_Sinomicrobium
+NOTE: Change sequence name '493375 Chryseobacterium humi 493375 Chryseobacterium humi' -> 493375_Chryseobacterium
+NOTE: Change sequence name '1639035 Ancylomarina subtilis 1639035 Ancylomarina subtilis' -> 1639035_Ancylomarina
+NOTE: Change sequence name '2291815 Deminuibacter soli 2291815 Deminuibacter soli' -> 2291815_Deminuibacter
+NOTE: Change sequence name '884107 Schleiferia thermophila 884107 Schleiferia thermophila' -> 884107_Schleiferia
+NOTE: Change sequence name '989 Marinilabilia salmonicolor 989 Marinilabilia salmonicolor' -> 989_Marinilabilia
+NOTE: Change sequence name '472055 Leptobacterium flavescens 472055 Leptobacterium flavescens' -> 472055_Leptobacterium
+NOTE: Change sequence name '1796613 Bacteroides caecimuris 1796613 Bacteroides caecimuris' -> 1796613_Bacteroides
+NOTE: Change sequence name 'MAG 5 MAG 5' -> MAG_5
+NOTE: Change sequence name '649349 Leadbetterella byssophila DSM 17132 649349 Leadbetterella byssophila DSM 17132' -> 649349_Leadbetterella
+NOTE: Change sequence name '313596 Robiginitalea biformata HTCC2501 313596 Robiginitalea biformata HTCC2501' -> 313596_Robiginitalea
+NOTE: Change sequence name '1445657 Hanstruepera neustonica 1445657 Hanstruepera neustonica' -> 1445657_Hanstruepera
+NOTE: Change sequence name '1761453 Euzebyella marina 1761453 Euzebyella marina' -> 1761453_Euzebyella
+NOTE: Change sequence name '1816680 Vaginella massiliensis 1816680 Vaginella massiliensis' -> 1816680_Vaginella
+NOTE: Change sequence name '1605367 Jiulongibacter sediminis 1605367 Jiulongibacter sediminis' -> 1605367_Jiulongibacter
+NOTE: Change sequence name '1965019 Geofilum rhodophaeum 1965019 Geofilum rhodophaeum' -> 1965019_Geofilum
+NOTE: Change sequence name '1465490 Parafilimonas terrae 1465490 Parafilimonas terrae' -> 1465490_Parafilimonas
+NOTE: Change sequence name 'MAG 6 MAG 6' -> MAG_6
+NOTE: Change sequence name '1803846 Flavivirga eckloniae 1803846 Flavivirga eckloniae' -> 1803846_Flavivirga
+NOTE: Change sequence name '442734 Lewinella antarctica 442734 Lewinella antarctica' -> 442734_Lewinella
+NOTE: Change sequence name '880526 Rikenella microfusus DSM 15922 880526 Rikenella microfusus DSM 15922' -> 880526_Rikenella
+NOTE: Change sequence name '927664 Flexibacter flexilis DSM 6793 927664 Flexibacter flexilis DSM 6793' -> 927664_Flexibacter
+NOTE: Change sequence name '1121875 Eudoraea adriatica DSM 19308 1121875 Eudoraea adriatica DSM 19308' -> 1121875_Eudoraea
+NOTE: Change sequence name '1178778 Maribacter cobaltidurans 1178778 Maribacter cobaltidurans' -> 1178778_Maribacter
+NOTE: Change sequence name '2594004 Formosa sediminum 2594004 Formosa sediminum' -> 2594004_Formosa
+NOTE: Change sequence name '2585141 Flavicella sediminum 2585141 Flavicella sediminum' -> 2585141_Flavicella
+NOTE: Change sequence name '1585976 Bergeyella cardium 1585976 Bergeyella cardium' -> 1585976_Bergeyella
+NOTE: Change sequence name '693978 Riemerella anatipestifer ATCC 11845 = DSM 15868 693978 Riemerella anatipestifer ATCC 11845 = DSM 15868' -> 693978_Riemerella
+NOTE: Change sequence name '1841857 Culturomica massiliensis 1841857 Culturomica massiliensis' -> 1841857_Culturomica
+NOTE: Change sequence name '700598 Niastella koreensis GR20-10 700598 Niastella koreensis GR20-10' -> 700598_Niastella
+NOTE: Change sequence name '1627894 Lascolabacillus massiliensis 1627894 Lascolabacillus massiliensis' -> 1627894_Lascolabacillus
+NOTE: Change sequence name '1484053 Mariniphaga anaerophila 1484053 Mariniphaga anaerophila' -> 1484053_Mariniphaga
+NOTE: Change sequence name '291179 Subsaximicrobium wynnwilliamsii 291179 Subsaximicrobium wynnwilliamsii' -> 291179_Subsaximicrobium
+NOTE: Change sequence name '688867 Ohtaekwangia koreensis 688867 Ohtaekwangia koreensis' -> 688867_Ohtaekwangia
+NOTE: Change sequence name '985016 Olivibacter jilunii 985016 Olivibacter jilunii' -> 985016_Olivibacter
+NOTE: Change sequence name '1909700 Confluentibacter flavum 1909700 Confluentibacter flavum' -> 1909700_Confluentibacter
+NOTE: Change sequence name '2173829 Thermaurantimonas aggregans 2173829 Thermaurantimonas aggregans' -> 2173829_Thermaurantimonas
+NOTE: Change sequence name '754435 Aureicoccus marinus 754435 Aureicoccus marinus' -> 754435_Aureicoccus
+NOTE: Change sequence name '929713 Niabella soli DSM 19437 929713 Niabella soli DSM 19437' -> 929713_Niabella
+NOTE: Change sequence name '998844 Allopseudarcicella aquatilis 998844 Allopseudarcicella aquatilis' -> 998844_Allopseudarcicella
+NOTE: Change sequence name '1841865 Mediterranea massiliensis 1841865 Mediterranea massiliensis' -> 1841865_Mediterranea
+NOTE: Change sequence name '929703 Flectobacillus major DSM 103 929703 Flectobacillus major DSM 103' -> 929703_Flectobacillus
+NOTE: Change sequence name '101383 Cryomorpha ignava 101383 Cryomorpha ignava' -> 101383_Cryomorpha
+NOTE: Change sequence name '1737063 Brumimicrobium aurantiacum 1737063 Brumimicrobium aurantiacum' -> 1737063_Brumimicrobium
+NOTE: Change sequence name '392009 Zeaxanthinibacter enoshimensis 392009 Zeaxanthinibacter enoshimensis' -> 392009_Zeaxanthinibacter
+NOTE: Change sequence name '1118202 Cruoricaptor ignavus 1118202 Cruoricaptor ignavus' -> 1118202_Cruoricaptor
+NOTE: Change sequence name '1807691 Echinicola rosea 1807691 Echinicola rosea' -> 1807691_Echinicola
+NOTE: Change sequence name '926559 Joostella marina DSM 19592 926559 Joostella marina DSM 19592' -> 926559_Joostella
+NOTE: Change sequence name '237258 Cloacibacterium normanense 237258 Cloacibacterium normanense' -> 237258_Cloacibacterium
+NOTE: Change sequence name '1642647 Proteiniphilum saccharofermentans 1642647 Proteiniphilum saccharofermentans' -> 1642647_Proteiniphilum
+NOTE: Change sequence name '118967 Anaerorhabdus furcosa 118967 Anaerorhabdus furcosa' -> 118967_Anaerorhabdus
+NOTE: Change sequence name '2058175 Antarcticibacterium flavum 2058175 Antarcticibacterium flavum' -> 2058175_Antarcticibacterium
+NOTE: Change sequence name '2049305 Changchengzhania lutea 2049305 Changchengzhania lutea' -> 2049305_Changchengzhania
+NOTE: Change sequence name '2077091 Flavipsychrobacter stenotrophus 2077091 Flavipsychrobacter stenotrophus' -> 2077091_Flavipsychrobacter
+NOTE: Change sequence name '1750599 Mongoliibacter ruber 1750599 Mongoliibacter ruber' -> 1750599_Mongoliibacter
+NOTE: Change sequence name '1232681 Lunatimonas lonarensis 1232681 Lunatimonas lonarensis' -> 1232681_Lunatimonas
+NOTE: Change sequence name 'MAG 15 MAG 15' -> MAG_15
+NOTE: Change sequence name '385682 Thermophagus xiamenensis 385682 Thermophagus xiamenensis' -> 385682_Thermophagus
+NOTE: Change sequence name '2479004 Gynurincola endophyticus 2479004 Gynurincola endophyticus' -> 2479004_Gynurincola
+NOTE: Change sequence name '1850348 Longibacter salinarum 1850348 Longibacter salinarum' -> 1850348_Longibacter
+NOTE: Change sequence name '990 Breznakibacter xylanolyticus 990 Breznakibacter xylanolyticus' -> 990_Breznakibacter
+NOTE: Change sequence name '442714 Ulvibacter antarcticus 442714 Ulvibacter antarcticus' -> 442714_Ulvibacter
+NOTE: Change sequence name '927658 Alkaliflexus imshenetskii DSM 15055 927658 Alkaliflexus imshenetskii DSM 15055' -> 927658_Alkaliflexus
+NOTE: Change sequence name '564064 Spirosoma rigui 564064 Spirosoma rigui' -> 564064_Spirosoma
+NOTE: Change sequence name '1189612 Indibacter alkaliphilus LW1 1189612 Indibacter alkaliphilus LW1' -> 1189612_Indibacter
+NOTE: Change sequence name 'MAG 42 MAG 42' -> MAG_42
+NOTE: Change sequence name '1241981 Chryseobacterium lactis 1241981 Chryseobacterium lactis' -> 1241981_Chryseobacterium
+NOTE: Change sequence name '1622118 Lutibacter profundi 1622118 Lutibacter profundi' -> 1622118_Lutibacter
+NOTE: Change sequence name '1123037 Psychroserpens burtonensis DSM 12212 1123037 Psychroserpens burtonensis DSM 12212' -> 1123037_Psychroserpens
+NOTE: Change sequence name 'MAG 69 MAG 69' -> MAG_69
+NOTE: Change sequence name '2126553 Gramella fulva 2126553 Gramella fulva' -> 2126553_Gramella
+NOTE: Change sequence name '172045 Elizabethkingia miricola 172045 Elizabethkingia miricola' -> 172045_Elizabethkingia
+NOTE: Change sequence name '2070510 Arundinibacter roseus 2070510 Arundinibacter roseus' -> 2070510_Arundinibacter
+NOTE: Change sequence name '2487930 Aureibaculum marinum 2487930 Aureibaculum marinum' -> 2487930_Aureibaculum
+NOTE: Change sequence name '2029983 Chitinophaga caeni 2029983 Chitinophaga caeni' -> 2029983_Chitinophaga
+NOTE: Change sequence name '2315862 Paraflavitalea soli 2315862 Paraflavitalea soli' -> 2315862_Paraflavitalea
+NOTE: Change sequence name '216432 Croceibacter atlanticus HTCC2559 216432 Croceibacter atlanticus HTCC2559' -> 216432_Croceibacter
+NOTE: Change sequence name '496057 Arachidicoccus ginsenosidivorans 496057 Arachidicoccus ginsenosidivorans' -> 496057_Arachidicoccus
+NOTE: Change sequence name '570521 Aquimarina spongiae 570521 Aquimarina spongiae' -> 570521_Aquimarina
+NOTE: Change sequence name '1454006 Siansivirga zeaxanthinifaciens CC-SAMT-1 1454006 Siansivirga zeaxanthinifaciens CC-SAMT-1' -> 1454006_Siansivirga
+NOTE: Change sequence name '641691 Pricia antarctica 641691 Pricia antarctica' -> 641691_Pricia
+NOTE: Change sequence name '1539049 Dinghuibacter silviterrae 1539049 Dinghuibacter silviterrae' -> 1539049_Dinghuibacter
+NOTE: Change sequence name '1703343 Marinirhabdus gelatinilytica 1703343 Marinirhabdus gelatinilytica' -> 1703343_Marinirhabdus
+NOTE: Change sequence name '570520 Xanthomarina spongicola 570520 Xanthomarina spongicola' -> 570520_Xanthomarina
+NOTE: Change sequence name '1178825 Arenitalea lutea 1178825 Arenitalea lutea' -> 1178825_Arenitalea
+NOTE: Change sequence name '2585119 Alistipes dispar 2585119 Alistipes dispar' -> 2585119_Alistipes
+NOTE: Change sequence name '1408433 Crocinitomix catalasitica ATCC 23190 1408433 Crocinitomix catalasitica ATCC 23190' -> 1408433_Crocinitomix
+NOTE: Change sequence name '320787 Cyclobacterium amurskyense 320787 Cyclobacterium amurskyense' -> 320787_Cyclobacterium
+NOTE: Change sequence name '2499629 Edaphocola flava 2499629 Edaphocola flava' -> 2499629_Edaphocola
+NOTE: Change sequence name '1434701 Chishuiella changwenlii 1434701 Chishuiella changwenlii' -> 1434701_Chishuiella
+NOTE: Change sequence name '2305463 Maribellus luteus 2305463 Maribellus luteus' -> 2305463_Maribellus
+NOTE: Change sequence name '504487 Jejuia pallidilutea 504487 Jejuia pallidilutea' -> 504487_Jejuia
+NOTE: Change sequence name '1227945 Robertkochia marina 1227945 Robertkochia marina' -> 1227945_Robertkochia
+NOTE: Change sequence name '1850246 Urechidicola croceus 1850246 Urechidicola croceus' -> 1850246_Urechidicola
+NOTE: Change sequence name '1813871 Panacibacter ginsenosidivorans 1813871 Panacibacter ginsenosidivorans' -> 1813871_Panacibacter
+NOTE: Change sequence name '242600 Ichthyobacterium seriolicida 242600 Ichthyobacterium seriolicida' -> 242600_Ichthyobacterium
+NOTE: Change sequence name '1812012 Oceanihabitans sediminis 1812012 Oceanihabitans sediminis' -> 1812012_Oceanihabitans
+NOTE: Change sequence name '563176 Siphonobacter aquaeclarae 563176 Siphonobacter aquaeclarae' -> 563176_Siphonobacter
+NOTE: Change sequence name '1121902 Eisenibacter elegans DSM 3317 1121902 Eisenibacter elegans DSM 3317' -> 1121902_Eisenibacter
+NOTE: Change sequence name '270921 Gillisia mitskevichiae 270921 Gillisia mitskevichiae' -> 270921_Gillisia
+NOTE: Change sequence name '573501 Leeuwenhoekiella palythoae 573501 Leeuwenhoekiella palythoae' -> 573501_Leeuwenhoekiella
+NOTE: Change sequence name '865938 Weeksella virosa DSM 16922 865938 Weeksella virosa DSM 16922' -> 865938_Weeksella
+NOTE: Change sequence name '1383885 Flagellimonas maritima 1383885 Flagellimonas maritima' -> 1383885_Flagellimonas
+NOTE: Change sequence name '1075417 Catalinimonas alkaloidigena 1075417 Catalinimonas alkaloidigena' -> 1075417_Catalinimonas
+NOTE: Change sequence name 'MAG 84 MAG 84' -> MAG_84
+NOTE: Change sequence name '2518971 Duncaniella dubosii 2518971 Duncaniella dubosii' -> 2518971_Duncaniella
+NOTE: Change sequence name '879969 Macellibacteroides fermentans 879969 Macellibacteroides fermentans' -> 879969_Macellibacteroides
+NOTE: Change sequence name '1736674 Algibacter alginicilyticus 1736674 Algibacter alginicilyticus' -> 1736674_Algibacter
+NOTE: Change sequence name '1433126 Mucinivorans hirudinis 1433126 Mucinivorans hirudinis' -> 1433126_Mucinivorans
+NOTE: Change sequence name '1123356 Terrimonas ferruginea DSM 30193 1123356 Terrimonas ferruginea DSM 30193' -> 1123356_Terrimonas
+NOTE: Change sequence name '1189621 Nitritalea halalkaliphila LW7 1189621 Nitritalea halalkaliphila LW7' -> 1189621_Nitritalea
+NOTE: Change sequence name 'MAG 2 MAG 2' -> MAG_2
+NOTE: Change sequence name '1080224 Hyunsoonleella pacifica 1080224 Hyunsoonleella pacifica' -> 1080224_Hyunsoonleella
+NOTE: Change sequence name '929556 Solitalea canadensis DSM 3403 929556 Solitalea canadensis DSM 3403' -> 929556_Solitalea
+NOTE: Change sequence name '1166018 Fibrella aestuarina BUZ 2 1166018 Fibrella aestuarina BUZ 2' -> 1166018_Fibrella
+NOTE: Change sequence name '1079859 Pseudarcicella hirudinis 1079859 Pseudarcicella hirudinis' -> 1079859_Pseudarcicella
+NOTE: Change sequence name '1852370 Prevotellamassilia timonensis 1852370 Prevotellamassilia timonensis' -> 1852370_Prevotellamassilia
+NOTE: Change sequence name '591202 Arcicella aurantiaca 591202 Arcicella aurantiaca' -> 591202_Arcicella
+NOTE: Change sequence name '1117708 Marinifilum flexuosum 1117708 Marinifilum flexuosum' -> 1117708_Marinifilum
+NOTE: Change sequence name '269798 Cytophaga hutchinsonii ATCC 33406 269798 Cytophaga hutchinsonii ATCC 33406' -> 269798_Cytophaga
+NOTE: Change sequence name '2482724 Chryseotalea sanaruensis 2482724 Chryseotalea sanaruensis' -> 2482724_Chryseotalea
+NOTE: Change sequence name '430522 Pedobacter steynii 430522 Pedobacter steynii' -> 430522_Pedobacter
+NOTE: Change sequence name '571115 Meridianimaribacter flavus 571115 Meridianimaribacter flavus' -> 571115_Meridianimaribacter
+NOTE: Change sequence name '880074 Barnesiella viscericola DSM 18177 880074 Barnesiella viscericola DSM 18177' -> 880074_Barnesiella
+NOTE: Change sequence name '1300341 Croceitalea dokdonensis DOKDO 023 1300341 Croceitalea dokdonensis DOKDO 023' -> 1300341_Croceitalea
+NOTE: Change sequence name '1168035 Tangfeifania diversioriginum 1168035 Tangfeifania diversioriginum' -> 1168035_Tangfeifania
+NOTE: Change sequence name '886379 Anaerophaga thermohalophila DSM 12881 886379 Anaerophaga thermohalophila DSM 12881' -> 886379_Anaerophaga
+NOTE: Change sequence name '1168039 Saccharicrinis carchari 1168039 Saccharicrinis carchari' -> 1168039_Saccharicrinis
+NOTE: Change sequence name '1089547 Rudanella lutea DSM 19387 1089547 Rudanella lutea DSM 19387' -> 1089547_Rudanella
+NOTE: Change sequence name '192903 Pseudozobellia thermophila 192903 Pseudozobellia thermophila' -> 192903_Pseudozobellia
+NOTE: Change sequence name '1848904 Capnocytophaga stomatis 1848904 Capnocytophaga stomatis' -> 1848904_Capnocytophaga
+NOTE: Change sequence name 'MAG 81 MAG 81' -> MAG_81
+NOTE: Change sequence name '1121909 Gaetbulibacter saemankumensis DSM 17032 1121909 Gaetbulibacter saemankumensis DSM 17032' -> 1121909_Gaetbulibacter
+NOTE: Change sequence name '1564516 Phaeodactylibacter luteus 1564516 Phaeodactylibacter luteus' -> 1564516_Phaeodactylibacter
+NOTE: Change sequence name '584609 Tenacibaculum jejuense 584609 Tenacibaculum jejuense' -> 584609_Tenacibaculum
+NOTE: Change sequence name '1168034 Draconibacterium orientale 1168034 Draconibacterium orientale' -> 1168034_Draconibacterium
+NOTE: Change sequence name '471854 Dyadobacter fermentans DSM 18053 471854 Dyadobacter fermentans DSM 18053' -> 471854_Dyadobacter
+NOTE: Change sequence name '1678841 Lentimicrobium saccharophilum 1678841 Lentimicrobium saccharophilum' -> 1678841_Lentimicrobium
+NOTE: Change sequence name '1401325 Ornithobacterium rhinotracheale ORT-UMN 88 1401325 Ornithobacterium rhinotracheale ORT-UMN 88' -> 1401325_Ornithobacterium
+NOTE: Change sequence name '1349822 Coprobacter fastidiosus NSB1 1349822 Coprobacter fastidiosus NSB1' -> 1349822_Coprobacter
+NOTE: Change sequence name '1349421 Flavihumibacter solisilvae 1349421 Flavihumibacter solisilvae' -> 1349421_Flavihumibacter
+NOTE: Change sequence name 'MAG 56 MAG 56' -> MAG_56
+NOTE: Change sequence name '1751427 Solirubrum puertoriconensis 1751427 Solirubrum puertoriconensis' -> 1751427_Solirubrum
+NOTE: Change sequence name '1294296 Luteibaculum oceani 1294296 Luteibaculum oceani' -> 1294296_Luteibaculum
+NOTE: Change sequence name '1004304 Hydrotalea sandarakina 1004304 Hydrotalea sandarakina' -> 1004304_Hydrotalea
+NOTE: Change sequence name '1790137 Wenyingzhuangia fucanilytica 1790137 Wenyingzhuangia fucanilytica' -> 1790137_Wenyingzhuangia
+NOTE: Change sequence name '655815 Zunongwangia profunda SM-A87 655815 Zunongwangia profunda SM-A87' -> 655815_Zunongwangia
+NOTE: Change sequence name '1492898 Flavisolibacter tropicus 1492898 Flavisolibacter tropicus' -> 1492898_Flavisolibacter
+NOTE: Change sequence name '63186 Zobellia galactanivorans 63186 Zobellia galactanivorans' -> 63186_Zobellia
+NOTE: Change sequence name '1122208 Marinoscillum furvescens DSM 4134 1122208 Marinoscillum furvescens DSM 4134' -> 1122208_Marinoscillum
+NOTE: Change sequence name '649333 Bizionia echini 649333 Bizionia echini' -> 649333_Bizionia
+NOTE: Change sequence name '1649169 Taibaiella soli 1649169 Taibaiella soli' -> 1649169_Taibaiella
+NOTE: Change sequence name '447679 Ekhidna lutea 447679 Ekhidna lutea' -> 447679_Ekhidna
+NOTE: Change sequence name '1485585 Cecembia rubra 1485585 Cecembia rubra' -> 1485585_Cecembia
+NOTE: Change sequence name '679199 Alloprevotella rava F0323 679199 Alloprevotella rava F0323' -> 679199_Alloprevotella
+NOTE: Change sequence name '946077 Imtechella halotolerans K1 946077 Imtechella halotolerans K1' -> 946077_Imtechella
+NOTE: Change sequence name '1796646 Muribaculum intestinale 1796646 Muribaculum intestinale' -> 1796646_Muribaculum
+NOTE: Change sequence name '1537566 Balneicella halophila 1537566 Balneicella halophila' -> 1537566_Balneicella
+NOTE: Change sequence name '866536 Belliella baltica DSM 15883 866536 Belliella baltica DSM 15883' -> 866536_Belliella
+NOTE: Change sequence name '742817 Odoribacter laneus YIT 12061 742817 Odoribacter laneus YIT 12061' -> 742817_Odoribacter
+NOTE: Change sequence name '1003 Thermoflexibacter ruber 1003 Thermoflexibacter ruber' -> 1003_Thermoflexibacter
+NOTE: Change sequence name '1605892 Dysgonomonas alginatilytica 1605892 Dysgonomonas alginatilytica' -> 1605892_Dysgonomonas
+NOTE: Change sequence name '28195 Thermonema lapsum 28195 Thermonema lapsum' -> 28195_Thermonema
+NOTE: Change sequence name '572036 Daejeonella lutea 572036 Daejeonella lutea' -> 572036_Daejeonella
+NOTE: Change sequence name '889453 Alkalitalea saponilacus 889453 Alkalitalea saponilacus' -> 889453_Alkalitalea
+NOTE: Change sequence name '1307839 Salinivirga cyanobacteriivorans 1307839 Salinivirga cyanobacteriivorans' -> 1307839_Salinivirga
+NOTE: Change sequence name '387659 Marixanthomonas ophiurae 387659 Marixanthomonas ophiurae' -> 387659_Marixanthomonas
+NOTE: Change sequence name '1300343 Dokdonia donghaensis DSW-1 1300343 Dokdonia donghaensis DSW-1' -> 1300343_Dokdonia
+NOTE: Change sequence name '518766 Rhodothermus marinus DSM 4252 518766 Rhodothermus marinus DSM 4252' -> 518766_Rhodothermus
+NOTE: Change sequence name '692418 Reichenbachiella faecimaris 692418 Reichenbachiella faecimaris' -> 692418_Reichenbachiella
+NOTE: Change sequence name '1819566 Fulvivirga lutimaris 1819566 Fulvivirga lutimaris' -> 1819566_Fulvivirga
+NOTE: Change sequence name '1469170 Longimonas halophila 1469170 Longimonas halophila' -> 1469170_Longimonas
+NOTE: Change sequence name '2494697 Mangrovimonas spongiae 2494697 Mangrovimonas spongiae' -> 2494697_Mangrovimonas
+NOTE: Change sequence name '746697 Aequorivita sublithincola DSM 14238 746697 Aequorivita sublithincola DSM 14238' -> 746697_Aequorivita
+NOTE: Change sequence name '1642646 Petrimonas mucosa 1642646 Petrimonas mucosa' -> 1642646_Petrimonas
+NOTE: Change sequence name '979970 Acetobacteroides hydrogenigenes 979970 Acetobacteroides hydrogenigenes' -> 979970_Acetobacteroides
+NOTE: Change sequence name '262006 Winogradskyella eximia 262006 Winogradskyella eximia' -> 262006_Winogradskyella
+NOTE: Change sequence name '1224947 Pustulibacterium marinum 1224947 Pustulibacterium marinum' -> 1224947_Pustulibacterium
+NOTE: Change sequence name '313606 Microscilla marina ATCC 23134 313606 Microscilla marina ATCC 23134' -> 313606_Microscilla
+NOTE: Change sequence name '1541063 Prolixibacter denitrificans 1541063 Prolixibacter denitrificans' -> 1541063_Prolixibacter
+NOTE: Change sequence name '1486034 Lacinutrix venerupis 1486034 Lacinutrix venerupis' -> 1486034_Lacinutrix
+NOTE: Change sequence name '1673718 Massilibacteroides vaginae 1673718 Massilibacteroides vaginae' -> 1673718_Massilibacteroides
+NOTE: Change sequence name '2494373 Flammeovirga pectinis 2494373 Flammeovirga pectinis' -> 2494373_Flammeovirga
+NOTE: Change sequence name '319238 Sediminicola luteus 319238 Sediminicola luteus' -> 319238_Sediminicola
+NOTE: Change sequence name '392412 Nubsella zeaxanthinifaciens 392412 Nubsella zeaxanthinifaciens' -> 392412_Nubsella
+NOTE: Change sequence name '926565 Sporocytophaga myxococcoides DSM 11118 926565 Sporocytophaga myxococcoides DSM 11118' -> 926565_Sporocytophaga
+NOTE: Change sequence name '1393122 Thermoflavifilum thermophilum 1393122 Thermoflavifilum thermophilum' -> 1393122_Thermoflavifilum
+NOTE: Change sequence name '379075 Sediminitomix flava 379075 Sediminitomix flava' -> 379075_Sediminitomix
+NOTE: Change sequence name 'MAG 39 MAG 39' -> MAG_39
+NOTE: Change sequence name '1803916 Salibacter halophilus 1803916 Salibacter halophilus' -> 1803916_Salibacter
+NOTE: Change sequence name '1121904 Flexithrix dorotheae DSM 6795 1121904 Flexithrix dorotheae DSM 6795' -> 1121904_Flexithrix
+NOTE: Change sequence name '639310 Olleya aquimaris 639310 Olleya aquimaris' -> 639310_Olleya
+NOTE: Change sequence name '1239962 Mariniradius saccharolyticus AK6 1239962 Mariniradius saccharolyticus AK6' -> 1239962_Mariniradius
+NOTE: Change sequence name '2419782 Ulvibacterium marinum 2419782 Ulvibacterium marinum' -> 2419782_Ulvibacterium
+NOTE: Change sequence name '49280 Gelidibacter algens 49280 Gelidibacter algens' -> 49280_Gelidibacter
+NOTE: Change sequence name '1348584 Cellulophaga baltica 18 1348584 Cellulophaga baltica 18' -> 1348584_Cellulophaga
+NOTE: Change sequence name '623280 Parapedobacter luteus 623280 Parapedobacter luteus' -> 623280_Parapedobacter
+NOTE: Change sequence name '164516 Blattabacterium clevelandi 164516 Blattabacterium clevelandi' -> 164516_Blattabacterium
+NOTE: Change sequence name '2042995 Pseudobizionia ponticola 2042995 Pseudobizionia ponticola' -> 2042995_Pseudobizionia
+NOTE: Change sequence name '555500 Galbibacter marinus 555500 Galbibacter marinus' -> 555500_Galbibacter
+NOTE: Change sequence name 'MAG 83 MAG 83' -> MAG_83
+NOTE: Change sequence name '558152 Chryseobacterium piperi 558152 Chryseobacterium piperi' -> 558152_Chryseobacterium
+NOTE: Change sequence name '1121903 Hugenholtzia roseola DSM 9546 1121903 Hugenholtzia roseola DSM 9546' -> 1121903_Hugenholtzia
+NOTE: Change sequence name '264023 Mariniflexile fucanivorans 264023 Mariniflexile fucanivorans' -> 264023_Mariniflexile
+NOTE: Change sequence name '279360 Roseivirga ehrenbergii 279360 Roseivirga ehrenbergii' -> 279360_Roseivirga
+NOTE: Change sequence name '516051 Muricauda lutaonensis 516051 Muricauda lutaonensis' -> 516051_Muricauda
+NOTE: Change sequence name '343403 Costertonia aggregata 343403 Costertonia aggregata' -> 343403_Costertonia
+NOTE: Change sequence name '1520893 Mesoflavibacter sabulilitoris 1520893 Mesoflavibacter sabulilitoris' -> 1520893_Mesoflavibacter
+NOTE: Change sequence name '2016530 Raineya orbicola 2016530 Raineya orbicola' -> 2016530_Raineya
+NOTE: Change sequence name '1929488 Croceivirga radicis 1929488 Croceivirga radicis' -> 1929488_Croceivirga
+NOTE: Change sequence name '1223410 Altibacter lentus 1223410 Altibacter lentus' -> 1223410_Altibacter
+NOTE: Change sequence name '1266046 Aurantibacter aestuarii 1266046 Aurantibacter aestuarii' -> 1266046_Aurantibacter
+NOTE: Change sequence name '1089550 Salisaeta longa DSM 21114 1089550 Salisaeta longa DSM 21114' -> 1089550_Salisaeta
+NOTE: Change sequence name '1230530 Ichthyenterobacterium magnum 1230530 Ichthyenterobacterium magnum' -> 1230530_Ichthyenterobacterium
+NOTE: Change sequence name 'MAG 11 MAG 11' -> MAG_11
+NOTE: Change sequence name '143223 Salegentibacter salegens 143223 Salegentibacter salegens' -> 143223_Salegentibacter
+NOTE: Change sequence name '1978412 Sediminibacterium roseum 1978412 Sediminibacterium roseum' -> 1978412_Sediminibacterium
+NOTE: Change sequence name 'MAG 1 MAG 1' -> MAG_1
+NOTE: Change sequence name '2094151 Paramuribaculum intestinale 2094151 Paramuribaculum intestinale' -> 2094151_Paramuribaculum
+NOTE: Change sequence name '1547597 Sanguibacteroides justesenii 1547597 Sanguibacteroides justesenii' -> 1547597_Sanguibacteroides
+NOTE: Change sequence name '1774273 Polaribacter vadi 1774273 Polaribacter vadi' -> 1774273_Polaribacter
+NOTE: Change sequence name '661488 Pseudobacter ginsenosidimutans 661488 Pseudobacter ginsenosidimutans' -> 661488_Pseudobacter
+NOTE: Change sequence name '684065 Algoriella xinjiangensis 684065 Algoriella xinjiangensis' -> 684065_Algoriella
+NOTE: Change sequence name '1123248 Segetibacter koreensis DSM 18137 1123248 Segetibacter koreensis DSM 18137' -> 1123248_Segetibacter
+NOTE: Change sequence name '911197 Phaeocystidibacter luteus 911197 Phaeocystidibacter luteus' -> 911197_Phaeocystidibacter
+NOTE: Change sequence name '1871023 Millionella massiliensis 1871023 Millionella massiliensis' -> 1871023_Millionella
+NOTE: Change sequence name '619805 Soonwooa buanensis 619805 Soonwooa buanensis' -> 619805_Soonwooa
+NOTE: Change sequence name '1586267 Apibacter mensalis 1586267 Apibacter mensalis' -> 1586267_Apibacter
+Alignment most likely contains protein sequences
+Alignment has 308 sequences with 6406 columns, 5722 distinct patterns
+4142 parsimony-informative, 821 singleton sites, 1443 constant sites
+                               Gap/Ambiguity  Composition  p-value
+   1  643867_Marivirga                29.10%    passed     92.60%
+   2  880071_Bernardetia              27.46%    passed     50.00%
+   3  512763_Rufibacter               28.97%    passed     74.81%
+   4  1884793_Pseudoflavitalea        28.05%    passed     67.32%
+   5  1124780_Nafulsella              29.33%    passed    100.00%
+   6  1784714_Arcticibacterium        26.10%    passed     99.63%
+   7  523696_Saonia                   27.93%    passed     97.21%
+   8  319236_Nonlabens                29.85%    passed     91.82%
+   9  762903_Pseudopedobacter         28.85%    passed     92.31%
+  10  616991_Arenibacter              28.10%    passed     99.93%
+  11  755732_Fluviicola               29.36%    passed     91.97%
+  12  761193_Runella                  28.13%    passed     88.99%
+  13  1717717_Labilibaculum           28.77%    passed     66.69%
+  14  MAG_14                          32.11%    failed      1.36%
+  15  1227077_Siccationidurans        27.33%    failed      2.70%
+  16  496056_Anseongella              29.10%    passed     82.30%
+  17  1123057_Rhodonellum             29.02%    passed     90.69%
+  18  1302690_Cnuella                 27.77%    failed      4.72%
+  19  MAG_55                          37.96%    passed     61.51%
+  20  1842495_Pelobium                28.66%    passed     97.27%
+  21  1912246_Seonamhaeicola          31.74%    passed     99.81%
+  22  MAG_3                           32.02%    passed     52.66%
+  23  2027860_Mucilaginibacter        27.96%    passed     50.90%
+  24  510947_Lacibacter               28.50%    passed     79.75%
+  25  2175091_Flavobacterium          28.97%    passed     98.80%
+  26  2516559_Aquirufa                28.68%    passed     62.51%
+  27  655355_Sunxiuqinia              29.16%    passed     94.47%
+  28  213248_Mesonia                  28.89%    passed     97.47%
+  29  536441_Chryseobacterium         28.97%    passed     96.17%
+  30  2321403_Chryseolinea            28.21%    passed     92.38%
+  31  477690_Lishizhenia              29.50%    passed     99.99%
+  32  1926625_Vicingus                29.44%    passed     98.13%
+  33  2305895_Fibrisoma               27.33%    failed      2.38%
+  34  823_Parabacteroides             28.85%    passed     99.59%
+  35  504488_Muriicola                27.68%    passed     98.22%
+  36  984262_Saprospira               25.57%    failed      3.84%
+  37  1770527_Larkinella              27.85%    passed     57.64%
+  38  357276_Phocaeicola              28.69%    passed     63.99%
+  39  1122177_Flavilitoribacter       28.97%    passed     12.61%
+  40  1380600_Flaviramulus            29.30%    passed     99.60%
+  41  400092_Pontibacter              29.25%    passed     99.85%
+  42  1639118_Mangrovibacterium       29.00%    passed     99.27%
+  43  2093856_Butyricimonas           29.18%    passed     34.27%
+  44  2528631_Puteibacter             29.19%    passed     99.04%
+  45  2502781_Hymenobacter            27.99%    passed     60.21%
+  46  762982_Paraprevotella           29.04%    passed     24.04%
+  47  1218801_Kordia                  28.63%    passed     99.88%
+  48  797291_Sphingobacterium         28.60%    passed     73.43%
+  49  2479858_Amniculibacterium       29.08%    passed     98.71%
+  50  MAG_4                           32.09%    passed     89.83%
+  51  192904_Kriegella                27.49%    passed     97.98%
+  52  1286632_Zhouia                  29.49%    passed     92.71%
+  53  653929_Albibacterium            28.19%    passed     89.25%
+  54  1640674_Williamwhitmania        28.40%    passed     59.85%
+  55  393921_Porphyromonas            28.52%    failed      4.79%
+  56  MAG_46                          32.52%    failed      2.61%
+  57  393006_Tamlana                  29.63%    passed     99.75%
+  58  1048983_Anditalea               28.97%    passed     96.43%
+  59  313595_Psychroflexus            28.72%    passed     49.32%
+  60  2268757_Paracnuella             27.79%    passed     14.32%
+  61  1750698_Arsenicibacter          27.76%    failed      3.38%
+  62  926549_Adhaeribacter            28.50%    passed     91.26%
+  63  694427_Paludibacter             28.86%    passed     95.74%
+  64  702745_Myroides                 29.89%    passed     67.53%
+  65  1434752_Arcticibacter           27.71%    passed     77.90%
+  66  MAG_45                          38.98%    passed      5.68%
+  67  2575867_Ilyomonas               27.65%    failed      4.84%
+  68  1481457_Spongiivirga            28.82%    passed     95.11%
+  69  266749_Chryseobacterium         28.49%    passed     96.48%
+  70  2171629_Botryobacter            29.10%    passed     96.99%
+  71  28112_Tannerella                28.41%    passed     96.08%
+  72  926562_Owenweeksia              29.08%    passed     92.68%
+  73  758820_Aquiflexum               29.18%    passed     93.53%
+  74  247_Empedobacter                29.52%    passed     75.46%
+  75  760192_Haliscomenobacter        27.88%    passed     27.66%
+  76  1042376_Ochrovirga              29.74%    passed     90.99%
+  77  390640_Salinimicrobium          28.88%    passed     99.49%
+  78  682526_Natronoflexus            29.02%    passed     59.16%
+  79  1763537_Cochleicola             28.49%    passed     98.35%
+  80  1727163_Algoriphagus            29.22%    passed     99.45%
+  81  1150368_Sinomicrobium           29.35%    passed     97.92%
+  82  493375_Chryseobacterium         29.43%    passed     92.45%
+  83  1639035_Ancylomarina            29.38%    passed     89.39%
+  84  2291815_Deminuibacter           28.25%    passed     27.55%
+  85  884107_Schleiferia              29.08%    passed     33.84%
+  86  989_Marinilabilia               29.18%    passed     98.37%
+  87  472055_Leptobacterium           29.10%    passed     99.86%
+  88  1796613_Bacteroides             28.68%    passed     80.24%
+  89  MAG_5                           31.97%    passed     96.84%
+  90  649349_Leadbetterella           28.35%    passed     99.73%
+  91  313596_Robiginitalea            26.96%    passed     86.93%
+  92  1445657_Hanstruepera            29.57%    passed     99.88%
+  93  1761453_Euzebyella              27.99%    passed     98.82%
+  94  1816680_Vaginella               29.24%    passed     94.70%
+  95  1605367_Jiulongibacter          31.11%    passed     95.31%
+  96  1965019_Geofilum                28.83%    passed     96.74%
+  97  1465490_Parafilimonas           28.08%    passed     76.64%
+  98  MAG_6                           31.99%    passed     93.89%
+  99  1803846_Flavivirga              29.52%    passed     99.98%
+ 100  442734_Lewinella                27.26%    failed      0.10%
+ 101  880526_Rikenella                28.10%    passed     15.47%
+ 102  927664_Flexibacter              28.47%    passed     77.73%
+ 103  1121875_Eudoraea                27.51%    passed     99.93%
+ 104  1178778_Maribacter              27.58%    passed     93.36%
+ 105  2594004_Formosa                 29.53%    passed     97.92%
+ 106  2585141_Flavicella              29.64%    passed     92.91%
+ 107  1585976_Bergeyella              29.29%    passed     99.88%
+ 108  693978_Riemerella               29.82%    passed     99.40%
+ 109  1841857_Culturomica             29.11%    passed     53.32%
+ 110  700598_Niastella                27.76%    passed     28.16%
+ 111  1627894_Lascolabacillus         28.55%    passed     99.46%
+ 112  1484053_Mariniphaga             28.74%    passed     46.62%
+ 113  291179_Subsaximicrobium         28.15%    passed     99.42%
+ 114  688867_Ohtaekwangia             28.18%    passed     97.03%
+ 115  985016_Olivibacter              28.24%    passed     78.77%
+ 116  1909700_Confluentibacter        29.19%    passed     99.93%
+ 117  2173829_Thermaurantimonas       29.04%    failed      3.89%
+ 118  754435_Aureicoccus              27.94%    passed     92.05%
+ 119  929713_Niabella                 27.55%    passed     57.06%
+ 120  998844_Allopseudarcicella       28.61%    passed     93.35%
+ 121  1841865_Mediterranea            28.68%    passed     34.41%
+ 122  929703_Flectobacillus           28.49%    passed     91.38%
+ 123  101383_Cryomorpha               29.39%    passed     92.69%
+ 124  1737063_Brumimicrobium          29.39%    passed     70.82%
+ 125  392009_Zeaxanthinibacter        27.57%    passed     98.77%
+ 126  1118202_Cruoricaptor            29.39%    passed     99.99%
+ 127  1807691_Echinicola              29.41%    passed     96.61%
+ 128  926559_Joostella                29.36%    passed     99.81%
+ 129  237258_Cloacibacterium          29.10%    passed     92.07%
+ 130  1642647_Proteiniphilum          28.57%    passed     99.76%
+ 131  118967_Anaerorhabdus            27.47%    failed      0.00%
+ 132  2058175_Antarcticibacterium     28.75%    passed     99.52%
+ 133  2049305_Changchengzhania        33.48%    passed     99.78%
+ 134  2077091_Flavipsychrobacter      26.97%    passed      6.84%
+ 135  1750599_Mongoliibacter          29.14%    passed     99.01%
+ 136  1232681_Lunatimonas             28.93%    passed     92.52%
+ 137  MAG_15                          48.89%    passed     56.07%
+ 138  385682_Thermophagus             28.85%    passed     49.86%
+ 139  2479004_Gynurincola             28.36%    passed     39.47%
+ 140  1850348_Longibacter             27.43%    failed      0.00%
+ 141  990_Breznakibacter              28.97%    passed     96.00%
+ 142  442714_Ulvibacter               28.74%    passed     99.99%
+ 143  927658_Alkaliflexus             28.75%    passed     99.05%
+ 144  564064_Spirosoma                26.91%    failed      3.05%
+ 145  1189612_Indibacter              29.14%    passed     88.61%
+ 146  MAG_42                          37.25%    passed     98.82%
+ 147  1241981_Chryseobacterium        28.89%    passed     99.00%
+ 148  1622118_Lutibacter              29.77%    passed     96.21%
+ 149  1123037_Psychroserpens          28.75%    passed     99.85%
+ 150  MAG_69                          63.02%    passed     47.80%
+ 151  2126553_Gramella                28.75%    passed     95.70%
+ 152  172045_Elizabethkingia          29.04%    passed     97.94%
+ 153  2070510_Arundinibacter          28.46%    passed     99.44%
+ 154  2487930_Aureibaculum            29.53%    passed     78.50%
+ 155  2029983_Chitinophaga            28.11%    passed     96.20%
+ 156  2315862_Paraflavitalea          27.82%    passed     48.31%
+ 157  216432_Croceibacter             29.25%    passed     99.35%
+ 158  496057_Arachidicoccus           44.32%    passed     35.21%
+ 159  570521_Aquimarina               29.33%    passed     99.96%
+ 160  1454006_Siansivirga             29.52%    passed     99.95%
+ 161  641691_Pricia                   26.65%    passed     85.98%
+ 162  1539049_Dinghuibacter           27.26%    passed      6.90%
+ 163  1703343_Marinirhabdus           29.18%    passed     98.92%
+ 164  570520_Xanthomarina             29.52%    passed     99.94%
+ 165  1178825_Arenitalea              29.50%    passed     99.96%
+ 166  2585119_Alistipes               27.99%    failed      0.94%
+ 167  1408433_Crocinitomix            29.35%    passed     73.43%
+ 168  320787_Cyclobacterium           29.13%    passed     53.62%
+ 169  2499629_Edaphocola              28.08%    passed     64.76%
+ 170  1434701_Chishuiella             29.50%    passed     86.92%
+ 171  2305463_Maribellus              28.97%    passed     95.19%
+ 172  504487_Jejuia                   29.60%    passed     99.94%
+ 173  1227945_Robertkochia            29.41%    passed     97.47%
+ 174  1850246_Urechidicola            29.88%    passed     99.61%
+ 175  1813871_Panacibacter            27.93%    passed     73.14%
+ 176  242600_Ichthyobacterium         29.00%    failed      0.00%
+ 177  1812012_Oceanihabitans          29.61%    passed     98.52%
+ 178  563176_Siphonobacter            28.35%    passed     74.50%
+ 179  1121902_Eisenibacter            28.04%    passed     62.03%
+ 180  270921_Gillisia                 28.83%    passed     99.02%
+ 181  573501_Leeuwenhoekiella         29.32%    passed     97.27%
+ 182  865938_Weeksella                29.43%    passed     97.47%
+ 183  1383885_Flagellimonas           27.36%    passed     96.96%
+ 184  1075417_Catalinimonas           27.99%    passed     76.33%
+ 185  MAG_84                          72.87%    failed      0.71%
+ 186  2518971_Duncaniella             34.73%    passed     26.01%
+ 187  879969_Macellibacteroides       28.79%    passed     99.95%
+ 188  1736674_Algibacter              29.57%    passed     99.82%
+ 189  1433126_Mucinivorans            28.38%    passed     37.41%
+ 190  1123356_Terrimonas              27.55%    passed     68.95%
+ 191  1189621_Nitritalea              34.66%    passed     99.49%
+ 192  MAG_2                           31.95%    passed     98.19%
+ 193  1080224_Hyunsoonleella          29.60%    passed     99.13%
+ 194  929556_Solitalea                28.86%    passed     99.51%
+ 195  1166018_Fibrella                27.26%    failed      0.84%
+ 196  1079859_Pseudarcicella          28.61%    passed     94.36%
+ 197  1852370_Prevotellamassilia      29.02%    passed      8.08%
+ 198  591202_Arcicella                28.46%    passed     90.11%
+ 199  1117708_Marinifilum             29.36%    passed     76.99%
+ 200  269798_Cytophaga                28.30%    passed     24.83%
+ 201  2482724_Chryseotalea            28.40%    passed     94.08%
+ 202  430522_Pedobacter               28.25%    passed     83.32%
+ 203  571115_Meridianimaribacter      29.58%    passed     99.89%
+ 204  880074_Barnesiella              28.99%    passed     73.70%
+ 205  1300341_Croceitalea             27.99%    passed     99.56%
+ 206  1168035_Tangfeifania            29.04%    passed     38.67%
+ 207  886379_Anaerophaga              28.72%    passed     87.17%
+ 208  1168039_Saccharicrinis          28.54%    passed     98.78%
+ 209  1089547_Rudanella               27.63%    failed      2.60%
+ 210  192903_Pseudozobellia           27.71%    passed     96.97%
+ 211  1848904_Capnocytophaga          29.43%    passed     83.08%
+ 212  MAG_81                          76.13%    passed      8.69%
+ 213  1121909_Gaetbulibacter          29.53%    passed     99.86%
+ 214  1564516_Phaeodactylibacter      28.85%    passed     16.33%
+ 215  584609_Tenacibaculum            29.72%    passed     99.77%
+ 216  1168034_Draconibacterium        29.27%    passed     76.19%
+ 217  471854_Dyadobacter              28.61%    passed     83.95%
+ 218  1678841_Lentimicrobium          28.18%    passed     78.31%
+ 219  1401325_Ornithobacterium        29.33%    passed     53.90%
+ 220  1349822_Coprobacter             29.05%    passed     92.54%
+ 221  1349421_Flavihumibacter         28.29%    passed     81.32%
+ 222  MAG_56                          41.87%    passed     38.42%
+ 223  1751427_Solirubrum              28.02%    passed     10.32%
+ 224  1294296_Luteibaculum            29.33%    passed     85.33%
+ 225  1004304_Hydrotalea              28.46%    failed      4.30%
+ 226  1790137_Wenyingzhuangia         29.69%    passed     76.16%
+ 227  655815_Zunongwangia             28.94%    passed     98.19%
+ 228  1492898_Flavisolibacter         27.76%    passed     41.71%
+ 229  63186_Zobellia                  27.94%    passed     98.97%
+ 230  1122208_Marinoscillum           29.00%    passed     99.23%
+ 231  649333_Bizionia                 29.57%    passed     99.66%
+ 232  1649169_Taibaiella              27.68%    passed     55.04%
+ 233  447679_Ekhidna                  29.02%    passed     99.19%
+ 234  1485585_Cecembia                29.08%    passed     92.65%
+ 235  679199_Alloprevotella           28.97%    passed     34.50%
+ 236  946077_Imtechella               29.44%    passed     89.87%
+ 237  1796646_Muribaculum             28.66%    passed     76.54%
+ 238  1537566_Balneicella             29.41%    passed     92.21%
+ 239  866536_Belliella                29.19%    passed     99.57%
+ 240  742817_Odoribacter              29.08%    passed     60.54%
+ 241  1003_Thermoflexibacter          28.38%    passed     96.40%
+ 242  1605892_Dysgonomonas            28.77%    passed     89.36%
+ 243  28195_Thermonema                28.83%    failed      0.01%
+ 244  572036_Daejeonella              27.99%    passed     57.08%
+ 245  889453_Alkalitalea              29.02%    passed     62.02%
+ 246  1307839_Salinivirga             28.91%    passed     42.28%
+ 247  387659_Marixanthomonas          28.54%    passed     95.84%
+ 248  1300343_Dokdonia                29.41%    passed     99.84%
+ 249  518766_Rhodothermus             27.72%    failed      0.00%
+ 250  692418_Reichenbachiella         29.61%    passed     94.71%
+ 251  1819566_Fulvivirga              29.39%    passed     99.47%
+ 252  1469170_Longimonas              26.97%    failed      0.00%
+ 253  2494697_Mangrovimonas           29.64%    passed     99.89%
+ 254  746697_Aequorivita              28.72%    passed     99.97%
+ 255  1642646_Petrimonas              28.13%    passed     84.95%
+ 256  979970_Acetobacteroides         28.74%    passed     95.61%
+ 257  262006_Winogradskyella          29.58%    passed     99.33%
+ 258  1224947_Pustulibacterium        29.61%    passed     96.35%
+ 259  313606_Microscilla              27.15%    passed     44.20%
+ 260  1541063_Prolixibacter           28.71%    passed     98.03%
+ 261  1486034_Lacinutrix              29.57%    passed     99.93%
+ 262  1673718_Massilibacteroides      28.88%    passed     83.57%
+ 263  2494373_Flammeovirga            28.35%    passed     87.86%
+ 264  319238_Sediminicola             28.24%    passed     98.12%
+ 265  392412_Nubsella                 28.60%    passed     75.32%
+ 266  926565_Sporocytophaga           28.15%    passed      5.92%
+ 267  1393122_Thermoflavifilum        28.18%    failed      0.00%
+ 268  379075_Sediminitomix            28.43%    passed     47.93%
+ 269  MAG_39                          32.05%    passed     97.88%
+ 270  1803916_Salibacter              29.50%    passed     19.92%
+ 271  1121904_Flexithrix              28.11%    failed      1.96%
+ 272  639310_Olleya                   29.58%    passed     99.56%
+ 273  1239962_Mariniradius            28.99%    passed     93.99%
+ 274  2419782_Ulvibacterium           27.38%    passed     98.67%
+ 275  49280_Gelidibacter              29.08%    passed     99.19%
+ 276  1348584_Cellulophaga            28.08%    passed     99.93%
+ 277  623280_Parapedobacter           27.72%    passed     94.34%
+ 278  164516_Blattabacterium          30.02%    failed      0.00%
+ 279  2042995_Pseudobizionia          29.57%    passed     99.94%
+ 280  555500_Galbibacter              29.43%    passed     93.55%
+ 281  MAG_83                          56.96%    passed     47.41%
+ 282  558152_Chryseobacterium         28.91%    passed     97.46%
+ 283  1121903_Hugenholtzia            27.60%    passed      9.76%
+ 284  264023_Mariniflexile            29.25%    passed     99.91%
+ 285  279360_Roseivirga               29.24%    passed     95.37%
+ 286  516051_Muricauda                27.35%    passed     80.07%
+ 287  343403_Costertonia              27.55%    passed     95.59%
+ 288  1520893_Mesoflavibacter         29.57%    passed     99.97%
+ 289  2016530_Raineya                 29.11%    passed     23.28%
+ 290  1929488_Croceivirga             29.39%    passed     99.84%
+ 291  1223410_Altibacter              29.35%    passed     99.94%
+ 292  1266046_Aurantibacter           29.60%    passed     95.02%
+ 293  1089550_Salisaeta               28.58%    failed      0.00%
+ 294  1230530_Ichthyenterobacterium   29.53%    passed     99.95%
+ 295  MAG_11                          32.38%    failed      0.21%
+ 296  143223_Salegentibacter          28.91%    passed     91.10%
+ 297  1978412_Sediminibacterium       27.66%    passed     32.27%
+ 298  MAG_1                           32.06%    passed     84.01%
+ 299  2094151_Paramuribaculum         28.93%    passed     77.53%
+ 300  1547597_Sanguibacteroides       28.94%    passed     11.13%
+ 301  1774273_Polaribacter            29.63%    passed     96.72%
+ 302  661488_Pseudobacter             27.97%    passed     55.26%
+ 303  684065_Algoriella               29.50%    passed     87.07%
+ 304  1123248_Segetibacter            28.02%    passed     38.80%
+ 305  911197_Phaeocystidibacter       29.32%    passed     59.17%
+ 306  1871023_Millionella             28.04%    passed      5.88%
+ 307  619805_Soonwooa                 29.13%    passed     96.48%
+ 308  1586267_Apibacter               29.49%    passed     64.58%
+WARNING: 4 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           29.63%  28 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Partition file is not in NEXUS format, assuming RAxML-style partition file...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	AA	305	242	188	40	LG	L1.fasta
+2	AA	306	317	215	67	LG	L2.fasta
+3	AA	306	293	181	83	LG	L3.fasta
+4	AA	307	285	190	75	LG	L4.fasta
+5	AA	303	227	159	52	LG	L5.fasta
+6	AA	304	221	161	45	LG	L6.fasta
+7	AA	306	267	188	34	LG	L10.fasta
+8	AA	307	191	134	42	LG	L13.fasta
+9	AA	303	124	85	30	LG	L14.fasta
+10	AA	304	309	135	110	LG	L15.fasta
+11	AA	306	173	102	61	LG	L18.fasta
+12	AA	304	244	165	37	LG	L22.fasta
+13	AA	307	131	93	24	LG	L23.fasta
+14	AA	303	179	118	35	LG	L24.fasta
+15	AA	302	133	85	10	LG	L29.fasta
+16	AA	306	682	393	158	LG	S2.fasta
+17	AA	305	463	285	85	LG	S3.fasta
+18	AA	306	211	165	33	LG	S4.fasta
+19	AA	306	214	138	53	LG	S5.fasta
+20	AA	303	165	131	23	LG	S7.fasta
+21	AA	304	137	104	18	LG	S8.fasta
+22	AA	307	176	103	60	LG	S9.fasta
+23	AA	306	105	66	23	LG	S10.fasta
+24	AA	305	152	103	33	LG	S11.fasta
+25	AA	304	165	72	81	LG	S12.fasta
+26	AA	305	130	85	36	LG	S13.fasta
+27	AA	304	105	75	15	LG	S14.fasta
+28	AA	305	111	77	16	LG	S15.fasta
+29	AA	302	158	80	43	LG	S17.fasta
+30	AA	306	96	66	21	LG	S19.fasta
+Degree of missing data: 0.009
+Info: multi-threading strategy over partitions
+
+WARNING: States(s) W rarely appear in partition L5.fasta and may cause numerical problems
+WARNING: States(s) W rarely appear in partition L14.fasta and may cause numerical problems
+WARNING: States(s) W rarely appear in partition S8.fasta and may cause numerical problems
+WARNING: States(s) W rarely appear in partition S10.fasta and may cause numerical problems
+WARNING: States(s) W rarely appear in partition S15.fasta and may cause numerical problems
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.663 seconds
+
+NOTE: 306 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 20 CPU cores
+7 trees examined
+Threads: 1 / Time: 21.652 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1486688
+slurmstepd: error: *** JOB 33494926 ON node400 CANCELLED AT 2021-01-06T18:41:42 ***
+Computing ML distances based on estimated model parameters... 126.979 sec
+Computing BIONJ tree...
+0.152 seconds
+Log-likelihood of BIONJ tree: -787281.106
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 151.465 second
+Computing log-likelihood of 98 initial trees ... 572.948 seconds
+Current best score: -784924.875
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -784733.433
+Current log-likelihood at step 1: -784733.433
+Parameters optimization took 0 rounds (1.633 sec)
+
+BETTER TREE FOUND at iteration 1: -784733.433
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -784705.311
+Current log-likelihood at step 1: -784705.310
+Parameters optimization took 0 rounds (1.562 sec)
+
+BETTER TREE FOUND at iteration 4: -784705.310
+Iteration 10 / LogL: -784708.195 / Time: 0h:19m:16s
+Iteration 20 / LogL: -784720.368 / Time: 0h:22m:52s
+Finish initializing candidate tree set (20)
+Current best tree score: -784705.310 / CPU time: 1155.180
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -784648.305
+Current log-likelihood at step 1: -784648.305
+Parameters optimization took 0 rounds (1.732 sec)
+
+BETTER TREE FOUND at iteration 21: -784648.305
+Iteration 30 / LogL: -784709.782 / Time: 0h:29m:36s (1h:32m:49s left)
+Iteration 40 / LogL: -784660.551 / Time: 0h:36m:25s (1h:15m:35s left)
+Iteration 50 / LogL: -784692.539 / Time: 0h:43m:0s (1h:2m:16s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -784645.528
+Current log-likelihood at step 1: -784645.528
+Parameters optimization took 0 rounds (1.778 sec)
+
+BETTER TREE FOUND at iteration 51: -784645.528
+Iteration 60 / LogL: -784670.946 / Time: 0h:49m:44s (1h:16m:39s left)
+Iteration 70 / LogL: -784670.588 / Time: 0h:56m:22s (1h:6m:8s left)
+Iteration 80 / LogL: -784655.332 / Time: 1h:3m:3s (0h:56m:38s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -784644.581
+Current log-likelihood at step 1: -784644.580
+Parameters optimization took 0 rounds (1.461 sec)
+
+BETTER TREE FOUND at iteration 84: -784644.580
+Iteration 90 / LogL: -784793.950 / Time: 1h:10m:13s (1h:14m:7s left)
+Iteration 100 / LogL: -784661.340 / Time: 1h:16m:33s (1h:4m:56s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -784643.760
+Current log-likelihood at step 1: -784643.760
+Parameters optimization took 0 rounds (1.689 sec)
+
+BETTER TREE FOUND at iteration 108: -784643.760
+Iteration 110 / LogL: -784729.127 / Time: 1h:23m:47s (1h:15m:18s left)
+Iteration 120 / LogL: -784674.251 / Time: 1h:30m:31s (1h:6m:54s left)
+Iteration 130 / LogL: -784643.765 / Time: 1h:37m:7s (0h:58m:42s left)
+Iteration 140 / LogL: -784682.774 / Time: 1h:44m:2s (0h:50m:53s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -784643.193
+Current log-likelihood at step 1: -784643.193
+Parameters optimization took 0 rounds (1.426 sec)
+
+BETTER TREE FOUND at iteration 143: -784643.193
+Iteration 150 / LogL: -784670.745 / Time: 1h:50m:45s (1h:9m:6s left)
+Iteration 160 / LogL: -784650.174 / Time: 1h:57m:41s (1h:1m:25s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -784642.766
+Current log-likelihood at step 1: -784642.766
+Parameters optimization took 0 rounds (1.697 sec)
+
+BETTER TREE FOUND at iteration 161: -784642.766
+Iteration 170 / LogL: -784659.350 / Time: 2h:4m:17s (1h:6m:54s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -784637.386
+Current log-likelihood at step 1: -784637.385
+Parameters optimization took 0 rounds (2.134 sec)
+
+BETTER TREE FOUND at iteration 179: -784637.385
+Iteration 180 / LogL: -784680.045 / Time: 2h:10m:46s (1h:12m:18s left)
+Iteration 190 / LogL: -784638.971 / Time: 2h:17m:26s (1h:4m:42s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -784636.856
+Current log-likelihood at step 1: -784636.856
+Parameters optimization took 0 rounds (1.767 sec)
+
+BETTER TREE FOUND at iteration 199: -784636.856
+Iteration 200 / LogL: -784658.995 / Time: 2h:24m:15s (1h:11m:45s left)
+Iteration 210 / LogL: -784708.882 / Time: 2h:30m:56s (1h:4m:15s left)
+Iteration 220 / LogL: -784670.432 / Time: 2h:37m:10s (0h:56m:41s left)
+Iteration 230 / LogL: -784642.421 / Time: 2h:43m:25s (0h:49m:14s left)
+Iteration 240 / LogL: -784639.907 / Time: 2h:49m:17s (0h:41m:47s left)
+Iteration 250 / LogL: -784639.102 / Time: 2h:55m:4s (0h:34m:26s left)
+Iteration 260 / LogL: -784639.640 / Time: 3h:0m:23s (0h:27m:9s left)
+Iteration 270 / LogL: -784657.805 / Time: 3h:4m:40s (0h:19m:54s left)
+Iteration 280 / LogL: -784678.327 / Time: 3h:9m:5s (0h:12m:52s left)
+Iteration 290 / LogL: -784672.621 / Time: 3h:13m:22s (0h:6m:1s left)
+Iteration 300 / LogL: -784642.595 / Time: 3h:17m:48s (0h:0m:-40s left)
+TREE SEARCH COMPLETED AFTER 300 ITERATIONS / Time: 3h:17m:48s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -784636.856
+Current log-likelihood at step 1: -784636.856
+Parameters optimization took 0 rounds (1.932 sec)
+
+BEST SCORE FOUND : -784636.856
+Total tree length: 33.150
+
+Total number of iterations: 300
+CPU time used for tree search: 11641.921 sec (3h:14m:1s)
+Wall-clock time used for tree search: 11651.237 sec (3h:14m:11s)
+Total CPU time used: 11847.762 sec (3h:17m:27s)
+Total wall-clock time used: 11872.043 sec (3h:17m:52s)
+
+Analysis results written to: 
+  IQ-TREE report:                partitions.txt.iqtree
+  Maximum-likelihood tree:       partitions.txt.treefile
+  Likelihood distances:          partitions.txt.mldist
+  Screen log file:               partitions.txt.log
+
+Date and Time: Wed Jan  6 21:56:47 2021
