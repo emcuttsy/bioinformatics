@@ -10,4 +10,4 @@
 module add engaging/iqtree/1.6.3
 
 cd ~/Bacteroidetes/rprot-aln-selected/
-iqtree -s concatenated_alignment.aln -q partitions.txt -st AA -nt AUTO
+iqtree -s concatenated_alignment.aln -q partitions.txt -st AA -nt AUTO -B 1000 -bnni
