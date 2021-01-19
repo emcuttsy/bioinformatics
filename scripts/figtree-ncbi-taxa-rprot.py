@@ -2,9 +2,7 @@
 #!/usr/bin/env python3
 """
 Created on Mon Oct 22 23:50:11 2018
-
 @author: Elise Cutts based on Erik Tamre and Thiberio Rangel
-
 """
 
 import ete3, sys, argparse
