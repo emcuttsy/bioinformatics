@@ -8,6 +8,6 @@
 #SBATCH --mail-user=ecutts@mit.edu
 
 module add engaging/python/3.6.0
-ncbi-genome-download --taxids NCBI-bacteroidetes-genus-representatives-taxids.csv \
---refseq-categories representative \
+cd ~/Saprospiria
+ncbi-genome-download --taxids 1937959 \
 --formats protein-fasta,genpept,assembly-report,assembly-stats bacteria

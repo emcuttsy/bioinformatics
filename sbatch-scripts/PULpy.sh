@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH -p sched_mit_g4nier
 #SBATCH -N 1
-#SBATCH --mem 8G
-#SBATCH -J PULpy-bacteroidetes-MAGs
-#SBATCH -o PULpy-bacteroidetes-MAGs.out
+#SBATCH --mem 16G
+#SBATCH -J PULpy-saprospiria
+#SBATCH -o PULpy-saprospiria.out
 #SBATCH --mail-type=begin
 #SBATCH --mail-type=end
 #SBATCH --mail-user=ecutts@mit.edu

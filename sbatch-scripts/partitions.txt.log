@@ -1,0 +1,12 @@
+IQ-TREE multicore version 1.6.3 for Linux 64-bit built Mar 22 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node397 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -s concatenated_alignment.aln -q partitions.txt -st AA -nt AUTO -bb 1000 -bnni
+Seed:    8319 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jan 18 15:44:17 2021
+Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
+
+Reading partition model file partitions.txt ...
+ERROR: File not found partitions.txt
